@@ -1,16 +1,14 @@
-<script> 
-  (function() { 
-    // Dein definiertes Passwort: 
-    var passwort = "30/09.cdE%T33"; 
-  
-    var eingabe = prompt("Diese Seite ist passwortgeschützt. Bitte gib das Passwort ein:"); 
-  
-    if (eingabe !== passwort) { 
-      alert("Falsches Passwort!"); 
-      document.write("<h1>Zugriff verweigert</h1><p>Bitte lade die Seite neu und gib das richtige Passwort ein.</p>"); 
-      window.stop(); // Stoppt das Laden der Landingpage 
-    } 
-  })(); 
+<script>
+  (function() {
+    var passwort = "30/09.cdE%T33";
+    var eingabe = prompt("Diese Seite ist passwortgeschützt. Bitte gib das Passwort ein:");
+    if (eingabe !== passwort) {
+      alert("Falsches Passwort!");
+      document.write("<h1>Zugriff verweigert</h1><p>Bitte lade die Seite neu und gib das richtige Passwort ein.</p>");
+      window.stop();
+    }
+  })();
+</script>
 </script>
 <!DOCTYPE html>
 <html lang="de" class="scroll-smooth dark">
